@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import API from "../services/api";
+import API from "../api";
 
 function StatsPage() {
   const { code } = useParams();
@@ -117,3 +117,4 @@ function StatsPage() {
 }
 
 export default StatsPage;
+
